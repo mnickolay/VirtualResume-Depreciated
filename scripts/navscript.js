@@ -1,21 +1,12 @@
 window.onload = function(){
     var navLogoMain = $(".navLogoMain"),
-        navLogoBack = $(".navLogoBack"),
-        navLogoBack2 = $(".navLogoBack2"),
-        bodyMiddle = $(".bodyMiddle"),
-        bodyRight = $(".bodyRight"),
-        body = $("body"),
-        navLinksJQ = $(".navLinks"),
         navActive = $(".navActive"),
         navHome = $("#navHome"),
         navResume = $("#navResume"),
         navProjects = $("#navProjects"),
         navAbout = $("#navAbout"),
         navContact = $("#navContact"),
-        navLinks = document.querySelectorAll(".navLinks");
-    var lastClass = "";
-    var borderStringMain = "";
-    var colors = ["#4230C5","#C53069","#B3C530", "#30C58C"],
+        borderStringMain = "",
         navItemsArr = [navHome, navResume, navProjects, navAbout, navContact];
 
     navItemsArr.forEach(function(ele){
