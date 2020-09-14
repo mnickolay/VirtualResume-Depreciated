@@ -1,0 +1,18 @@
+/* #4230C5 */
+
+.bodyMiddle{
+    background-color: #4230C5;
+}
+
+.bodyRight{
+    background-color: #4230C5;
+}
+
+.navLogoMain:hover{
+    background-color: #4230C5;
+    border: #4230C5 1px solid;
+}
+
+.navActive:hover{
+    color: #4230C5;
+}

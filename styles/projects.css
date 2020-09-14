@@ -1,0 +1,18 @@
+/* #C53069 */
+
+.bodyMiddle{
+    background-color: #C53069;
+}
+
+.bodyRight{
+    background-color: #C53069;
+}
+
+.navLogoMain:hover{
+    background-color: #C53069;
+    border: #C53069 1px solid;
+}
+
+.navActive:hover{
+    color: #C53069;
+}

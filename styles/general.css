@@ -1,0 +1,57 @@
+body, html{
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+br{
+    display: block;
+    content: "";
+    margin-top: 10px;
+}
+
+#websiteBody{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bodyLeft{
+    background-color: rgb(240, 240, 240);
+    float: left;
+    width: 51%;
+    height: 100%;
+}
+
+.bodyMiddle{
+    float: left;
+    width: 35%;
+    height: 100%;
+    transition: background-color 1000ms linear,
+                color 1000ms ease-in-out;
+}
+
+.bodyRight{
+    float: right;
+    width: 14%;
+    height: 100%;
+    transition: background-color 1000ms linear,
+                color 1000ms ease-in-out;
+}
+
+@font-face{
+    font-family: 'font100';
+    src: url(../fonts/100Raleway-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: 'font300';
+    src: url(../fonts/300Raleway-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: 'font400';
+    src: url(../fonts/400Raleway-VariableFont_wght.ttf);
+}

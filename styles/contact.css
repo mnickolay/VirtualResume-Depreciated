@@ -1,0 +1,18 @@
+/* #007aec */
+
+.bodyMiddle{
+    background-color: #007aec;
+}
+
+.bodyRight{
+    background-color: #007aec;
+}
+
+.navLogoMain:hover{
+    background-color: #007aec;
+    border: #007aec 1px solid;
+}
+
+.navActive:hover{
+    color: #007aec;
+}

@@ -1,0 +1,18 @@
+/* #B3C530 */
+
+.bodyMiddle{
+    background-color: #B3C530;
+}
+
+.bodyRight{
+    background-color: #B3C530;
+}
+
+.navLogoMain:hover{
+    background-color: #B3C530;
+    border: #B3C530 1px solid;
+}
+
+.navActive:hover{
+    color: #B3C530;
+}

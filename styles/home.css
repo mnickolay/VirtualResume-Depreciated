@@ -1,0 +1,34 @@
+.bodyMiddle{
+    background-color: rgb(48, 197, 140);
+}
+
+.bodyRight{
+    background-color: rgb(48, 197, 140);
+}
+
+.nameDisplay{
+    float: initial;
+    line-height: 0.8;
+    font-family: 'font100';
+    font-size: 8vw;
+    font-weight: lighter;
+    padding-top: 14rem;
+    padding-left: 0;
+    text-align: left;
+}
+
+.infoDisplay{
+    font-size: 2.1vw;
+    font-family: 'font100';
+    padding-top: 6rem;
+    padding-left: 0;
+}
+
+.navLogoMain:hover{
+    background-color: #30c58c;
+    border: #30c58c 1px solid;
+}
+
+.navActive:hover{
+    color: #30c58c;
+}
