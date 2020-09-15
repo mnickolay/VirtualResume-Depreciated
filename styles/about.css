@@ -1,9 +1,5 @@
 /* #B3C530 */
 
-.bodyMiddle{
-    background-color: #B3C530;
-}
-
 .bodyRight{
     background-color: #B3C530;
 }
@@ -15,4 +11,10 @@
 
 .navActive:hover{
     color: #B3C530;
+}
+
+.about{
+    font-family: "font100";
+    font-size: 3.6vw;
+    padding-top: 15rem;
 }

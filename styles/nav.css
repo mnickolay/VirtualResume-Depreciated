@@ -29,7 +29,8 @@
     font-size: 2rem;
     border-radius: 15px;
     transition: border-radius 2s linear,
-                background-color 1s ease-in-out,
+                background-color 1s linear,
+                border-color 1s linear,
                 color 0.2s linear;
     color: black;
     border: black 1px solid;
@@ -53,7 +54,6 @@
 .navRight{
     float: right;
     width: 49%;
-    padding-left: 5px;
     padding-right: 15vw;
     margin: auto;
     margin-top: 4rem;

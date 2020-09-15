@@ -1,20 +1,15 @@
-.bodyMiddle{
-    background-color: rgb(48, 197, 140);
-}
-
 .bodyRight{
-    background-color: rgb(48, 197, 140);
+    background-color: #30c58c;
 }
 
 .nameDisplay{
     float: initial;
+    text-align: left;
     line-height: 0.8;
     font-family: 'font100';
     font-size: 8vw;
-    font-weight: lighter;
     padding-top: 14rem;
     padding-left: 0;
-    text-align: left;
 }
 
 .infoDisplay{

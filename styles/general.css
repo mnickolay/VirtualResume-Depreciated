@@ -19,26 +19,21 @@ br{
 }
 
 .bodyLeft{
-    background-color: rgb(240, 240, 240);
+    background-color: #f0f0f0;
     float: left;
     width: 51%;
     height: 100%;
 }
 
-.bodyMiddle{
+.bodyRight{
     float: left;
-    width: 35%;
+    width: 49%;
     height: 100%;
-    transition: background-color 1000ms linear,
-                color 1000ms ease-in-out;
+    transition: color 1000ms ease-in-out;
 }
 
-.bodyRight{
-    float: right;
-    width: 14%;
-    height: 100%;
-    transition: background-color 1000ms linear,
-                color 1000ms ease-in-out;
+.bodyBGChange{
+    transition: background-color 0.5s linear;
 }
 
 @font-face{
