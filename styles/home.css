@@ -1,5 +1,11 @@
+#floater{
+    float: left;
+
+}
+
 .bodyRight{
     background-color: #30c58c;
+    z-index: 2;
 }
 
 .nameDisplay{
@@ -10,6 +16,7 @@
     font-size: 8vw;
     padding-top: 14rem;
     padding-left: 0;
+    animation: slideUpName ease 1s;
 }
 
 .infoDisplay{
@@ -17,6 +24,7 @@
     font-family: 'font100';
     padding-top: 6rem;
     padding-left: 0;
+    animation: slideUpInfo ease 1s;
 }
 
 .navLogoMain:hover{
@@ -26,4 +34,14 @@
 
 .navActive:hover{
     color: #30c58c;
+}
+
+@keyframes slideUpName{
+    0% {padding-top: 17rem; opacity: 0;}
+    100% {padding-top: 14rem; opacity: 1;}
+}
+
+@keyframes slideUpInfo{
+    0% {padding-top: 8rem; opacity: 0;}
+    100% {padding-top: 6rem; opacity: 1;}
 }
