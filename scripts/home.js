@@ -7,7 +7,7 @@ class Circle {
 }
 var colorStorage = document.querySelector("#colorStorage").innerText;
 var svgCircles = document.querySelector("#svgCircles");
-var body = document.querySelector("#websiteBody");
+var body = document.querySelector("html");
 
 createCircleOnPage();
 
@@ -71,8 +71,11 @@ function circleMovementEvent(thisCircle){
             var ycoord=thisY/30*count + parseInt(cir.yCoor);
             cir.dom.setAttribute("cx", xcoord);
             cir.dom.setAttribute("cy", ycoord);
-            count+=0.5;
+            count+=0.2;
         })
     })
 }
 
+circleObjArr.forEach(function(cir){
+    cir.dom.setAttribute("fill", rgba());
+})

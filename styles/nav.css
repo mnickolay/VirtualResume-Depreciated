@@ -89,23 +89,23 @@
 }
 
 #navHome:hover{
-    background-color: #30c58c;
+    background-color: #0F6336;
 }
 
 #navResume:hover{
-    background-color: #4230C5;
+    background-color: #FFDAEC;
 }
 
 #navProjects:hover{
-    background-color: #C53069;
+    background-color: #26488D;
 }
 
 #navAbout:hover{
-    background-color: #B3C530;
+    background-color: #D6AB51;
 }
 
 #navContact:hover{
-    background-color: #007aec;
+    background-color: #2E2E2E;
 }
 
 @font-face{

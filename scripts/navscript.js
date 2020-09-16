@@ -9,7 +9,7 @@ window.onload = function(){
         bodyRight = $(".bodyRight"),
         borderStringMain = "",
         color = "";
-        green = "#30C58C", purple = "#4230C5", red = "#C53069", yellow = "#B3C530", blue = "#007aec",
+        green = "#185233", pink = "#FFDAEC", blue = "#26488D", yellow = "#D6AB51", black = "#2E2E2E",
         navHTML = localStorage.getItem("navHTML");
         navItemsArr = [navHome, navResume, navProjects, navAbout, navContact];
 
@@ -24,16 +24,16 @@ window.onload = function(){
                 backgroundColorSwitchMethod(green);
                 break;
             case "resume":
-                backgroundColorSwitchMethod(purple);
+                backgroundColorSwitchMethod(pink);
                 break;
             case "projects":
-                backgroundColorSwitchMethod(red);
+                backgroundColorSwitchMethod(blue);
                 break;
             case "about":
                 backgroundColorSwitchMethod(yellow);
                 break;
             case "contact":
-                backgroundColorSwitchMethod(blue);
+                backgroundColorSwitchMethod(black);
                 break;
             default:
                 localStorage.clear();

@@ -1,14 +1,14 @@
-/* #4230C5 */
+/* #FFDAEC */
 
 .bodyRight{
-    background-color: #4230C5;
+    background-color: #FFDAEC;
 }
 
 .navLogoMain:hover{
-    background-color: #4230C5;
-    border: #4230C5 1px solid;
+    background-color: #FFDAEC;
+    border: #FFDAEC 1px solid;
 }
 
 .navActive:hover{
-    color: #4230C5;
+    color: #FFDAEC;
 }
