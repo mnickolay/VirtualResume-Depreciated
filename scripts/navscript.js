@@ -44,7 +44,7 @@ window.onload = function(){
     }
 
     function backgroundColorSwitchMethod(transitionColor){
-        color = bodyRight.css("background-color");
+        color = $("#colorStorage").text();
         setBodyColor(transitionColor);
         getCorrectBodyColor(color);
     }
