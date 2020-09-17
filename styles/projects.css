@@ -1,16 +1,16 @@
-/* #26488D */
+/* #162a52 */
 
 .bodyRight{
-    background-color: #26488D;
+    background-color: #162a52;
 }
 
 .navLogoMain:hover{
-    background-color: #26488D;
-    border: #26488D 1px solid;
+    background-color: #162a52;
+    border: #162a52 1px solid;
 }
 
 .navActive:hover{
-    color: #26488D;
+    color: #162a52;
 }
 
 .bodyMiddle{

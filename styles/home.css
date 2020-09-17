@@ -11,7 +11,7 @@
     line-height: 0.8;
     font-family: 'font100';
     font-size: 8vw;
-    padding-top: 40vh;
+    padding-top: 30vh;
     padding-left: 0;
     animation: slideUpName ease 1s;
     color: #F0F0F0;
@@ -44,8 +44,8 @@
 }
 
 @keyframes slideUpName{
-    0% {padding-top: 43vh; opacity: 0;}
-    100% {padding-top: 40vh; opacity: 1;}
+    0% {padding-top: 33vh; opacity: 0;}
+    100% {padding-top: 30vh; opacity: 1;}
 }
 
 @keyframes slideUpInfo{
