@@ -27,10 +27,14 @@
     margin-top: 8rem;
 }
 
+h4{
+    animation: h4slideLeft 1s ease;
+}
+
 h5{
     font-weight: 300;
-    margin: 1vh 0;
-
+    margin: 1vh 0vw;
+    animation: h5slideLeft 1s ease;
 }
 
 span{
@@ -48,3 +52,13 @@ span{
 .resBottomItem{
     margin-left: 1.5vw;
 } */
+
+@keyframes h5slideLeft{
+    0% {margin-left: 3vw; opacity: 0;}
+    100% {margin-left: 0vw; opacity: 1;}
+}
+
+@keyframes h4slideLeft{
+    0% {margin-left: 2vw; opacity: 0;}
+    100% {margin-left: 0vw; opacity: 1;}
+}
