@@ -7,7 +7,7 @@ class Circle {
 }
 var colorStorage = document.querySelector("#colorStorage").innerText;
 var svgCircles = document.querySelector("#svgCircles");
-var body = document.querySelector("html");
+var html = document.querySelector("html");
 
 createCircleOnPage();
 
@@ -61,7 +61,7 @@ function rngCircleRadius(){
 }
 
 function circleMovementEvent(thisCircle){
-    body.addEventListener("mousemove", e =>{
+    html.addEventListener("mousemove", e =>{
         thisX = parseInt(e.clientX);
         thisY = parseInt(e.clientY);
         var count = 1;

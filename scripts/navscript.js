@@ -9,7 +9,7 @@ window.onload = function(){
         bodyRight = $(".bodyRight"),
         borderStringMain = "",
         color = "";
-        green = "#185233", pink = "#ffecf5", blue = "#26488D", yellow = "#D6AB51", black = "#2E2E2E",
+        green = "#185233", pink = "#ffe5e2", blue = "#26488D", yellow = "#D6AB51", black = "#2E2E2E",
         navHTML = localStorage.getItem("navHTML");
         navItemsArr = [navHome, navResume, navProjects, navAbout, navContact];
 

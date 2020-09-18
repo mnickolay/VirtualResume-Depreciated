@@ -1,8 +1,8 @@
-/*#ffecf5 */
+/*#ffe5e2 */
 
 .bodyRight{
     float: left;
-    background-color: #ffecf5;
+    background-color: #ffe5e2;
     width: 90%;
 }
 
@@ -11,12 +11,12 @@
 }
 
 .navLogoMain:hover{
-    background-color:#ffecf5;
-    border:#ffecf5 1px solid;
+    background-color:#ffe5e2;
+    border:#ffe5e2 1px solid;
 }
 
 .navActive:hover{
-    color:#ffecf5;
+    color:#ffe5e2;
 }
 
 .resumeBody{
