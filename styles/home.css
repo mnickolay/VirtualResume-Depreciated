@@ -2,28 +2,6 @@
 
 .bodyRight{
     background-color: #0f6336;
-    z-index: 2;
-}
-
-.nameDisplay{
-    float: initial;
-    text-align: left;
-    line-height: 0.8;
-    font-family: 'font100';
-    font-size: 8vw;
-    padding-top: 30vh;
-    padding-left: 0;
-    animation: slideUpName ease 1s;
-    color: #F0F0F0;
-}
-
-.infoDisplay{
-    font-size: 2.1vw;
-    font-family: 'font100';
-    padding-top: 6vh;
-    padding-left: 0;
-    animation: slideUpInfo ease 1s;
-    color: #F0F0F0;
 }
 
 .navLogoMain:hover{
@@ -31,29 +9,98 @@
     border: #0f6336 1px solid;
 }
 
-.navLinks{
-    color: #f0f0f0;
-}
-
-.navActive{
+.navActive:hover{
     color: #0f6336;
 }
 
-.circle{
-    animation: fadeIn ease-in 1s;
+.about{
+    font-family: "font100";
+    font-size: 3.6vw;
+    padding-top: 15rem;
 }
 
-@keyframes slideUpName{
-    0% {padding-top: 33vh; opacity: 0;}
-    100% {padding-top: 30vh; opacity: 1;}
+#aboutHeadPara, #borderBoxF, #colorBoxL, #colorBoxR, #borderBoxB{
+    width: 38vw;
+    height: 12vw;
+    line-height: 3;
+    text-align: center;
+    position: absolute;
+    left: 33vw;
+    top: 30vh;
+    
 }
 
-@keyframes slideUpInfo{
-    0% {padding-top: 7vh; opacity: 0;}
-    100% {padding-top: 6vh; opacity: 1;}
+#aboutHeadPara{
+    color: #f0f0f0;
+    animation: fadeIn 2s ease;
+}
+
+#colorBoxL{
+    background-color: #0f6336;
+    position: absolute;
+    width: 18vw;
+    animation: fadeIn 0.5s ease,
+                slideInL 0.5s linear;
+}
+
+#colorBoxR{
+    width: 20vw;
+    height: 12vw;
+    background-color: #183325;
+    position: absolute;
+    left: 51vw;
+    animation: fadeIn 1s ease,
+                slideInR 1s linear;
+}
+
+#borderBoxF{
+    border: 1px solid black;
+    position: absolute;
+    left: 33.8vw;
+    top: 31.75vh;
+    animation: borderFslide 2s ease,
+                fadeInBorder 2s linear;
+}
+
+#borderBoxB{
+    border: 1px solid black;
+    position: absolute;
+    left: 32.2vw;
+    top: 28.25vh;
+    animation: borderBslide 2s ease,
+                fadeInBorder 2s linear;
+}
+
+@keyframes slideInL{
+    0% {width: 0;}
+    100% {width: 18vw;}
+}
+
+@keyframes slideInR{
+    0% {width: 0;}
+    50% {width: 0;}
+    100% {width: 20vw;}
+}
+
+@keyframes borderFslide{
+    0% {left: 33vw; top: 30vh;}
+    50% {left: 33vw; top: 30vh;}
+    100% {left: 33.8vw; top: 31.75vh;}
+}
+
+@keyframes borderBslide{
+    0% {left: 33vw; top: 30vh;}
+    50% {left: 33vw; top: 30vh;}
+    100% {left: 32.2vw; top: 28.25vh;}
 }
 
 @keyframes fadeIn{
     0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeInBorder{
+    0% {opacity: 0;}
+    25% {opacity: 0;}
     100% {opacity: 1;}
 }

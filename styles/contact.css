@@ -24,3 +24,24 @@
 .navActive:hover{
     color: #f0f0f0;
 }
+
+.icons{
+    display: grid;
+    grid-template: 1fr / 1fr;
+}
+
+img{
+    width: 125px;
+    height: 125px;
+}
+
+.iconBG{
+    width: 125px;
+    height: 125px;
+    background-color: white;
+}
+
+.emailInner{
+    grid-column: 1;
+    grid-row: 1;
+}
