@@ -25,23 +25,101 @@
     color: #f0f0f0;
 }
 
-.icons{
-    display: grid;
-    grid-template: 1fr / 1fr;
-}
-
-img{
-    width: 125px;
-    height: 125px;
+.allSelector{
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    animation: fadeIn 1s linear;
 }
 
 .iconBG{
-    width: 125px;
-    height: 125px;
     background-color: white;
+    border-radius: 10px;
 }
 
-.emailInner{
-    grid-column: 1;
-    grid-row: 1;
+/* .overlay{
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+} */
+
+.emailInner, #hoverClickE{
+    left: 78%;
+    top: 35%;
+}
+
+.phoneInner, #hoverClickP{
+    left: 78%;
+    top: 54%;
+}
+
+.githubInner, #hoverClickGH{
+    left: 65%;
+    top: 54%;
+}
+
+.linkedinInner, #hoverClickLI{
+    left: 65%;
+    top: 35%;
+}
+
+.hoverClick{
+    border-radius: 9px;
+    transition: all 0.15s linear;
+}
+
+#hoverClickLI:hover{
+    background-color: rgba(0, 119, 181, 0.5);
+}
+
+#hoverClickE:hover{
+    background-color: rgba(232, 52, 70, 0.5);
+}
+
+#hoverClickGH:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hoverClickP:hover{
+    background-color: rgba(0, 169, 70, 0.5);
+}
+
+#linkedinOverlay{
+    animation: colorLI 1s linear;
+}
+
+#emailOverlay{
+    animation: colorE 1s linear;
+}
+
+#githubOverlay{
+    animation: colorGH 1s linear;
+}
+
+#phoneOverlay{
+    animation: colorP 1s linear;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes colorLI{
+    0% {background-color: #0077B5;}
+    100% {background-color: rgba(255, 255, 255, 0.18);}
+}
+
+@keyframes colorE{
+    0% {background-color: #e83446;}
+    100% {background-color: rgba(255, 255, 255, 0.18);}
+}
+
+@keyframes colorGH{
+    0% {background-color: #000000;}
+    100% {background-color: rgba(255, 255, 255, 0.18);}
+}
+
+@keyframes colorP{
+    0% {background-color: #00a946;}
+    100% {background-color: rgba(255, 255, 255, 0.18);}
 }

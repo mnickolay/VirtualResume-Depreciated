@@ -57,7 +57,7 @@ function rngCircleXandY(){
 }
 
 function rngCircleRadius(){
-    return Math.floor((Math.random() * 150) + 20)
+    return Math.floor((Math.random() * 130) + 20)
 }
 
 function circleMovementEvent(thisCircle){
